@@ -4,8 +4,9 @@ public class SalesRep extends Employee{
 	private double salesMade;
 	
 	public SalesRep(String firstName,String lastName,int registration,int age,int daysWorked
-			,int vacationDayTaken,double salary,int yearsWorked, double salesMade) {
-		super(firstName,lastName,registration,age,daysWorked,vacationDayTaken,salary,yearsWorked);
+			,int vacationDayTaken,double salary,int yearsWorked, double salesMade,String username, String password) {
+		super(firstName,lastName,registration,age,daysWorked,vacationDayTaken,salary,yearsWorked,username,
+				password);
 		this.salesMade = salesMade;
 	}
 	
